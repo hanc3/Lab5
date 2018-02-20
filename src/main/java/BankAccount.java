@@ -31,6 +31,90 @@ public class BankAccount {
          * Implement this function
          */
     }
+    public void setBankAccountType(final BankAccountType type) {
+        accountType = type;
+    }
+
+    /**
+     * css.
+     */
+    public BankAccountType getBankAccountType() {
+        return accountType;
+    }
+
+    /**
+     * css.
+     *
+     * @param interest is an double.
+     */
+    public void setInterestEarned(final double interest) {
+        interestEarned = interest;
+    }
+
+    /**
+     * css.
+     */
+    public double getInterestEarned() {
+        return interestEarned;
+    }
+
+    /**
+     * css.
+     *
+     * @param rate is an double.
+     */
+    public void setInterestRate(final double rate) {
+        interestRate = rate;
+    }
+
+    /**
+     * css.
+     */
+    public double getInterestRate() {
+        return interestRate;
+    }
+
+    /**
+     * css.
+     *
+     * @param name is an String.
+     */
+    public void setOwnerName(final String name) {
+        ownerName = name;
+    }
+
+    /**
+     * css.
+     */
+    public String getOwnerName() {
+        return ownerName;
+    }
+
+
+    /**
+     * css.
+     *
+     * @param num is an int.
+     */
+    public void setAccountNumber(final int num) {
+        accountNumber = num;
+    }
+
+    /**
+     * css.
+     */
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+
+    /**
+     * css.
+     *
+     * @param balance is an int.
+     */
+    public void setAccountBalance(final double balance) {
+        accountBalance = balance;
+    }
 
     /*
      * Implement getters and setters as appropriate for private variables.
